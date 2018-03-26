@@ -25,7 +25,6 @@ class WzsController extends Controller{
 
         $list = DB::table('user')->get();
 
-        dd($list);
 
 
         echo 'hello laravel...';
